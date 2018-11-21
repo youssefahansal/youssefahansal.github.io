@@ -56,7 +56,7 @@
     var raster = L.imageOverlay(imageUrl, imageBounds);
 	 var mraster = L.layerGroup([raster]);
 	
-    var defaultLayer = L.tileLayer.provider('OpenStreetMap.Mapnik').addTo(mymap);
+    var defaultLayer = L.tileLayer.provider('Esri.WorldStreetMap').addTo(mymap);
 
 		var baseLayers = {
 			'OpenStreetMap Default': defaultLayer,
